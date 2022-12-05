@@ -3,7 +3,7 @@ import React from 'react';
 
 function NavBar({ currentPage, handlePageChange }) {
     return(
-      <ul className="nav nav-tabs">      
+      <ul className="nav justify-content-center">      
         <li className="nav-item">
           <a
             href="#about"
@@ -41,7 +41,7 @@ function NavBar({ currentPage, handlePageChange }) {
             // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
             className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
           >
-            Contact
+            Resume
           </a>
         </li>
       </ul>
