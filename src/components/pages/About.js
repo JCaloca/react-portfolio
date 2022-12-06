@@ -2,13 +2,13 @@ import React from "react";
 
 export default function About() {
   return (
-    <div>
+    <div className="container">
       <div className="clearfix">
         <p className="display-5">Full Stack Web Developer</p>
         <hr />
         <img
           className="profile-pic col-md-6 float-md-end mb-3 ms-md-3"
-          src={"/img/prof-pic.jpg"}
+          src={process.env.PUBLIC_URL + "/assets/prof-pic.jpg"}
           alt="J. Caloca"
         />
         <p className="lead">

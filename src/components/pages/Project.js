@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Project(props) {
   return (
-    <div className="container">
+    <div className="container project-card">
       <div className="row row-cols-1 row-cols-md-2 g-4">
         {props.projects.map((project) => (
           <div className="col">

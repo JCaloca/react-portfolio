@@ -1,4 +1,18 @@
 import React from "react";
+import { validateEmail } from "../../utils/helpers.js";
+
+// handleChange(idx, event) {
+//     const target = event.target;
+//     const message = target.message;
+//     let error = '';
+
+//     if (target.value === '') {
+//         error = `${message} field cannot be empty`
+//     }
+//     if (!target.value) {
+
+//     }
+// }
 
 export default function Contact() {
   return (

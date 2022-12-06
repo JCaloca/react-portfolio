@@ -26,7 +26,7 @@ const projects = [
     title: "Note Taker",
     description:
       "An application used to take notes built out on the back end through Express.js.",
-    img: "/img/note-taker.png",
+    img: "/assets/note-taker.png",
     deployed: "https://note-taker-jakec.herokuapp.com/",
     repo: "https://github.com/JCaloca/Express.js-Note-Taker",
   },
@@ -35,7 +35,7 @@ const projects = [
     title: "Employee Tracker",
     description:
       "A content management system (CMS) interface built in the command line application. Built using Node.js, Inquirer npm and MySQL",
-    img: "/img/employeetracker.png",
+    img: "/assets/employeetracker.png",
     deployed:
       "https://drive.google.com/file/d/1t4hHrdtT5rALhNQChNyF6Rq0ACji0_N5/view",
     repo: "https://github.com/JCaloca/Employee-Tracker",
@@ -45,7 +45,7 @@ const projects = [
     title: "NoSQL Social Network API",
     description:
       "A NoSQl based API for a social network application where users can share their thoughts, react to friends' thoughts and create a friends list.",
-    img: "/img/nosql-api.png",
+    img: "/assets/nosql-api.png",
     deployed:
       "https://drive.google.com/file/d/1NLj5Je5KFYrpRGvMp6OkoXqaZiEkm9qo/view",
     repo: "https://github.com/JCaloca/NoSQL-Social-Network-API",
@@ -55,7 +55,7 @@ const projects = [
     title: "Geo Chart Tracker",
     description:
       "An app to find music that is popular in different locations all over the world!",
-    img: "/img/geochart-tracker.png",
+    img: "/assets/geochart-tracker.png",
     deployed: "https://jcaloca.github.io/Geo-Chart-Tracker/",
     repo: "https://github.com/JCaloca/Geo-Chart-Tracker",
   },
@@ -63,7 +63,7 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className="container">
       <p className="display-6">Portfolio</p>
       <hr />
 
