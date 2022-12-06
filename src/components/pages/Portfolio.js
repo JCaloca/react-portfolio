@@ -7,7 +7,7 @@ const projects = [
     title: "PWA Text Editor",
     description:
       "A JavaScript text editor that runs in the browser. This is a single-page application built using PWA criteria.",
-    img: "/assets/img/text-editor.png",
+    img: "/assets/text-editor.png",
     deployed: "https://amazing-js-text-editor.herokuapp.com/",
     repo: "https://github.com/JCaloca/PWA-Text-Editor",
   },
@@ -16,7 +16,7 @@ const projects = [
     title: "Team Profile Generator",
     description:
       "A command line application that generates a web page through users input.",
-    img: "/img/team-profile-generator.png",
+    img: "/assets/team-profile-generator.png",
     deployed:
       "https://drive.google.com/file/d/1pvPUEjATH9fWhVduLa77IkLiolYoGNlK/view",
     repo: "https://github.com/JCaloca/Team-Profile-Generator",

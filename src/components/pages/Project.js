@@ -1,4 +1,5 @@
 import React from "react";
+// var imgPath = "/assets/text-editor.png";
 
 export default function Project(props) {
   return (
@@ -8,7 +9,7 @@ export default function Project(props) {
           <div className="col">
             <div className="card h-100">
               <img
-                src={project.img}
+                src={process.env.PUBLIC_URL + project.img}
                 className="card-img-top"
                 alt="Screenshot of the application"
               />
