@@ -1,9 +1,11 @@
-import React from 'react';
+import React from "react";
 
 export default function About() {
   return (
     <div>
-      <h3>About Page</h3>
+      <p className="display-6">Full Stack Web Developer</p>
+      <hr />
+      <img className="profile-pic" src={"/img/prof-pic.jpg"} alt="J. Caloca" />
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
