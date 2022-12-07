@@ -29,12 +29,7 @@ Clone this repo and run `npm install` then `npm start` in the command line.
 
 ## Usage
 
-A simple database structure for a social network API.
-
-## License
-
-This repository is under the license MIT License.
-For more information see https://opensource.org/licenses/MIT
+A portfolio page using React.
 
 ## Contributing
 
