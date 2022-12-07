@@ -1,5 +1,5 @@
 import React from "react";
-// var imgPath = "/assets/text-editor.png";
+import '../styles/Portfolio.css';
 
 export default function Project(props) {
   return (

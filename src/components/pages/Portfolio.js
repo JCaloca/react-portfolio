@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "./Project";
+import "../styles/Portfolio.css";
 
 const projects = [
   {
@@ -63,7 +64,7 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <div className="container">
+    <div className="container portfolio">
       <p className="display-6">Portfolio</p>
       <hr />
 

@@ -6,15 +6,18 @@ export default function Resume() {
       <div className="resume-link">
         <p className="display-6">Resume</p>
         <hr />
-        <a
-          type="button"
-          className="btn btn-dark btn-lg"
-          href={process.env.PUBLIC_URL + "/assets/react-resume.pdf"}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Resume
-        </a>
+        <p>
+          Download my
+          <a
+            type="button"
+            className="btn btn-dark btn-lg px-5"
+            href={process.env.PUBLIC_URL + "/assets/react-resume.pdf"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </p>
       </div>
       <div className="skills-list">
         <ul>
